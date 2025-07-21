@@ -1,0 +1,29 @@
+name: PrisonCore
+version: 1
+main: nordin.prison.core.MobEconomyPlugin
+api-version: 1.21
+authors: [NordinWG]
+depend: [PlaceholderAPI, LuckPerms, WorldGuard]
+commands:
+  helpme:
+    description: List available commands
+    usage: /<command>
+  rules:
+    description: Show server rules
+    usage: /<command>
+  spawn:
+    description: Teleport to spawn
+    usage: /<command>
+  discord:
+    description: Show the server Discord link
+    usage: /<command>
+  website:
+    description: Show the server website link
+    usage: /<command>
+  cleardroppd:
+    usage: /<command>
+permissions:
+  sk.cleardroppd:
+    default: op
+  ss.use:
+    default: op

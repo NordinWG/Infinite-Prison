@@ -1,0 +1,64 @@
+# The official config file for finites Anarchy Core
+#                               | A library plugin for finites Anarchy
+#                               \ Still work in progress
+
+mob-values:
+  PLAYER: 5
+messages:
+  cleardrops_warn: "&x&F&F&D&7&0&0&l[&x&F&F&C&E&0&0&lD&x&F&F&C&6&0&0&lu&x&F&F&B&D&0&0&lc&x&F&F&B&4&0&0&lk &x&F&F&A&B&0&0&lA&x&F&F&A&3&0&0&ln&x&F&F&9&A&0&0&la&x&F&F&9&1&0&0&lr&x&F&F&8&8&0&0&lc&x&F&F&8&0&0&0&lh&x&F&F&7&7&0&0&ly&x&F&F&6&E&0&0&l] &4&lW&6&lA&e&lR&2&lN&1&lI&5&lN&d&lG&b&l: &7Clearing dropped items in &e{seconds} &7seconds."
+  cleardrops_done: "&x&F&F&D&7&0&0&l[&x&F&F&C&E&0&0&lD&x&F&F&C&6&0&0&lu&x&F&F&B&D&0&0&lc&x&F&F&B&4&0&0&lk &x&F&F&A&B&0&0&lA&x&F&F&A&3&0&0&ln&x&F&F&9&A&0&0&la&x&F&F&9&1&0&0&lr&x&F&F&8&8&0&0&lc&x&F&F&8&0&0&0&lh&x&F&F&7&7&0&0&ly&x&F&F&6&E&0&0&l] &4&lI&6&lN&e&lF&2&lO&b&l: &7Killed &6{count} &7dropped items."
+  finites_kill_message: "<gold>You earned <yellow>{amount} finites</yellow> for killing a player!"
+  balance_header: "<gold>Your balance:"
+  balance_finites: "<green>finites: <white>{value}"
+  finitestop_header: "<gold>Top 5 finites Balances:"
+  leaderboard_entry: "<green>{player}: <white>{value}"
+  reload_success: "<green>CustomfinitesAnarchy config reloaded successfully!"
+  player_only: "<red>This command can only be used by players!"
+  invalid_usage: "<red>Usage: /mobeco <reload|registerpapi>"
+  invalid_player: "<red>Player {player} not found!"
+  invalid_amount: "<red>Invalid amount: {amount}. Must be a positive number!"
+  reset_finites_success: "<green>Reset {player}'s finites to 0!"
+  add_finites_success: "<green>Added {amount} finites to {player}'s balance!"
+  set_finites_success: "<green>Set {player}'s finites to {amount}!"
+  no_permission: "<red>You do not have permission to use this command!"
+  plushie_shop_title: "<gold>Plushie Shop"
+  plushie_insufficient_finites: "<red>You need {amount} finites to buy {plushie}!"
+  plushie_inventory_full: "<red>Your inventory is full!"
+  join_message: "&x&F&F&D&7&0&0&l[&x&F&F&C&C&0&0&lD&x&F&F&C&1&0&0&lu&x&F&F&B&5&0&0&lc&x&F&F&A&A&0&0&lk &x&F&F&9&F&0&0&lA&x&F&F&9&4&0&0&ln&x&F&F&8&8&0&0&la&x&F&F&7&D&0&0&lr&x&F&F&7&2&0&0&lc&x&F&F&6&7&0&0&lh&x&F&F&5&B&0&0&ly&x&F&F&5&0&0&0&l] {prefix} §e{player} §6has joined the game!"
+  leave_message: "&x&F&F&D&7&0&0&l[&x&F&F&C&C&0&0&lD&x&F&F&C&1&0&0&lu&x&F&F&B&5&0&0&lc&x&F&F&A&A&0&0&lk &x&F&F&9&F&0&0&lA&x&F&F&9&4&0&0&ln&x&F&F&8&8&0&0&la&x&F&F&7&D&0&0&lr&x&F&F&7&2&0&0&lc&x&F&F&6&7&0&0&lh&x&F&F&5&B&0&0&ly&x&F&F&5&0&0&0&l] {prefix} §e{player} §6has left the game!"
+  enable_broadcast: true
+  horizontal_speed_warning: "&7Speed: {speed} bps"
+  vertical_speed_warning: "&7Vertical speed: {speed} bps"
+  horizontal_speed_limit_exceeded: "&cSpeed limit exceeded: {speed} bps! Resetting position."
+  vertical_speed_limit_exceeded: "&cVertical speed limit exceeded: {speed} bps! Resetting position."
+  chat_format: "{prefix} &3{player}: &r{message}"
+  helpme:
+    normal_header: "<bold>Normal Commands:"
+    discord: "<blue>/discord"
+    website: "<blue>/website"
+    msg: "<blue>/msg <dark_gray>{user} {message} <green>| <blue>/r <dark_gray>{message}"
+    helpme: "<blue>/helpme"
+    trash: "<blue>/trash"
+    tpa: "<blue>/tpa <dark_gray>{user} <green>| <blue>/tpahere <dark_gray>{user} <green>| <blue>/tpaccept <green>| <blue>/tpdeny <green>| <blue>/tpcancel"
+    home: "<blue>/home <dark_gray>{home-name} <green>| <blue>/sethome <dark_gray>{home-name} <green>| <blue>/delhome <dark_gray>{home-name}"
+    fun_header: "<bold>Fun Commands:"
+    killme: "<blue>/killme"
+  killme:
+    message: "<white>Owch."
+  rules:
+    header: "<bold>Rules:"
+    hack: "- Hack clients are allowed"
+    lag: "- Don't try to lag/crash the server"
+    jokes: "- No Rape/Unconsensual jokes"
+    fun: "- Have fun"
+
+# Edit the plushie shop
+plushies:
+  finites_plushie:
+    display_name: "<yellow>finites Plushie"
+    texture: Davincstyle
+    price: 10
+  herobrine:
+    display_name: "<green>Herobrine"
+    texture: Venuspower
+    price: 15

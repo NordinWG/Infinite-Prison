@@ -1,0 +1,46 @@
+# The official config file for finites Network Core
+#                               | A library plugin for finites Anarchy
+#                               \ Still work in progress
+
+#all ingame chat formatting and all plugin messages
+messages:
+  # cleardrops
+  cleardrops_warn: "&x&0&0&D&D&F&F&l[&x&0&0&C&F&F&6&lI&x&0&0&C&1&E&D&ln&x&0&0&B&4&E&3&lf&x&0&0&A&6&D&A&li&x&0&0&9&8&D&1&ln&x&0&0&8&A&C&8&li&x&0&0&7&C&B&E&lt&x&0&0&6&F&B&5&le &x&0&0&6&1&A&C&lA&x&0&0&5&3&A&3&ln&x&0&0&4&5&9&9&la&x&0&0&3&7&9&0&lr&x&0&0&2&9&8&7&lc&x&0&0&1&C&7&E&lh&x&0&0&0&E&7&4&ly&x&0&0&0&0&6&B&l] &4&lW&6&lA&e&lR&2&lN&1&lI&5&lN&d&lG&b&l:&r &7Clearing dropped items in &e{seconds} &7seconds."
+  cleardrops_done: "&x&0&0&D&D&F&F&l[&x&0&0&C&F&F&6&lI&x&0&0&C&1&E&D&ln&x&0&0&B&4&E&3&lf&x&0&0&A&6&D&A&li&x&0&0&9&8&D&1&ln&x&0&0&8&A&C&8&li&x&0&0&7&C&B&E&lt&x&0&0&6&F&B&5&le &x&0&0&6&1&A&C&lA&x&0&0&5&3&A&3&ln&x&0&0&4&5&9&9&la&x&0&0&3&7&9&0&lr&x&0&0&2&9&8&7&lc&x&0&0&1&C&7&E&lh&x&0&0&0&E&7&4&ly&x&0&0&0&0&6&B&l] &4&lI&6&lN&e&lF&2&lO&b&l:&r &7Killed &6{count} &7dropped items."
+
+
+  # Join/Leave
+  join_message: "&x&0&0&D&D&F&F&l[&x&0&0&C&F&F&6&lI&x&0&0&C&1&E&D&ln&x&0&0&B&4&E&3&lf&x&0&0&A&6&D&A&li&x&0&0&9&8&D&1&ln&x&0&0&8&A&C&8&li&x&0&0&7&C&B&E&lt&x&0&0&6&F&B&5&le &x&0&0&6&1&A&C&lA&x&0&0&5&3&A&3&ln&x&0&0&4&5&9&9&la&x&0&0&3&7&9&0&lr&x&0&0&2&9&8&7&lc&x&0&0&1&C&7&E&lh&x&0&0&0&E&7&4&ly&x&0&0&0&0&6&B&l] {prefix} &e{player} &6has joined the game!"
+  leave_message: "&x&0&0&D&D&F&F&l[&x&0&0&C&F&F&6&lI&x&0&0&C&1&E&D&ln&x&0&0&B&4&E&3&lf&x&0&0&A&6&D&A&li&x&0&0&9&8&D&1&ln&x&0&0&8&A&C&8&li&x&0&0&7&C&B&E&lt&x&0&0&6&F&B&5&le &x&0&0&6&1&A&C&lA&x&0&0&5&3&A&3&ln&x&0&0&4&5&9&9&la&x&0&0&3&7&9&0&lr&x&0&0&2&9&8&7&lc&x&0&0&1&C&7&E&lh&x&0&0&0&E&7&4&ly&x&0&0&0&0&6&B&l] {prefix} &e{player} &6has left the game!"
+  enable_broadcast: true
+
+  # PlayerChat FM
+  chat_format: "{prefix} &3%1$s: &r%2$s"
+
+  # Commands
+  helpme:
+    normal_header: "&lNormal Commands:"
+    discord: "&9/discord"
+    website: "&9/website"
+    spawn: "&9/spawn"
+    rules: "&9/rules"
+    fun_header: "&lFun Commands:"
+  rules:
+    header: "&lRules:"
+    hack: "- No hacking outside Anarchy"
+    lag: "- Don't try to lag/crash the server"
+    common: "- Use common sense"
+    fun: "- Have fun"
+
+  # RandomStuff / plugins command block
+  plugin_cmd_denied_1: "You silly waggon wheel, don't you dare run this command!"
+  plugin_cmd_denied_2: "Hold your horses, that command is off-limits!"
+  plugin_cmd_denied_3: "Whoa there, partner this command ain't for your boots."
+  plugin_cmd_denied_4: "That command? Forbidden like pineapple on a hotdog."
+  plugin_cmd_denied_5: "Nice try, but this command just ghosted you."
+  plugin_cmd_denied_6: "Uh-uh, command denied. Go sit in the naughty corner."
+  plugin_cmd_denied_7: "No command for you! Come back one system update later."
+  plugin_cmd_denied_8: "This command saw you coming and ran the other way."
+  plugin_cmd_denied_9: "That command is like a dragon you need permission to slay it."
+  plugin_cmd_denied_10: "Command blocked, your keyboard has filed a restraining order."
+

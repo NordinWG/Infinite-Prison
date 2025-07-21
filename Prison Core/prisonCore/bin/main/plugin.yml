@@ -1,0 +1,102 @@
+name: finitesAnarchyCore
+version: ${version}
+main: finites.anarchy.core.MobEconomyPlugin
+api-version: 1.21
+authors: [NordinWG, ifinitesy__]
+depend: [PlaceholderAPI, LuckPerms]
+commands:
+  pl:
+    description: Blocked plugins command
+    usage: /plugins
+    aliases: [plugins, ".pl", ".plugins"]
+    permission: sk.pl
+  pc:
+    description: Clears all dropped items.
+    permission: sk.pc
+    usage: /pc <player>
+  ps:
+    description: Clears all dropped items.
+    permission: sk.ps
+    usage: /ps <player>
+  cleardroppd:
+    description: Clears all dropped items.
+    permission: sk.cleardropped
+    usage: /cleardroppd
+  ss:
+    description: Broadcasts a message as ifinitesy__
+    permission: ss.use
+    usage: /ss <text>
+  balance:
+    description: Check your finites balance
+    usage: /<command>
+    permission: mobeconomy.balance
+  finitestop:
+    description: Show the top 5 players by finites balance
+    usage: /<command>
+    permission: mobeconomy.finitestop
+  mobeco:
+    description: Manage MobEconomy plugin
+    usage: /<command> <reload|registerpapi>
+    permission: mobeconomy.admin
+  resetfinites:
+    description: Reset a player's finites balance
+    usage: /<command> <player>
+    permission: mobeconomy.admin.reset
+  addfinites:
+    description: Add finites to a player's balance
+    usage: /<command> <player> <amount>
+    permission: mobeconomy.admin.modify
+  setfinites:
+    description: Set a player's finites balance
+    usage: /<command> <player> <amount>
+    permission: mobeconomy.admin.modify
+  plushy:
+    description: Open the plushie shop
+    usage: /<command>
+  helpme:
+    description: List available commands
+    usage: /<command>
+  killme:
+    description: Kill yourself
+    usage: /<command>
+  rules:
+    description: Show server rules
+    usage: /<command>
+  spawn:
+    description: Teleport to a random spawn location
+    usage: /<command>
+  "0_0":
+    description: Teleport to spawn at (0.5, 0.5)
+    usage: /<command>
+  discord:
+    description: Show the server Discord link
+    usage: /<command>
+  website:
+    description: Show the server website link
+    usage: /<command>
+permissions:
+  mobeconomy.balance:
+    description: Allows checking finites balance
+    default: true
+  mobeconomy.finitestop:
+    description: Allows viewing the finites leaderboard
+    default: true
+  mobeconomy.admin:
+    description: Allows managing MobEconomy plugin
+    default: op
+  mobeconomy.admin.reset:
+    description: Allows resetting player finites balances
+    default: op
+  mobeconomy.admin.modify:
+    description: Allows modifying player finites balances
+    default: op
+  sk.cleardroppd:
+    default: op
+  ss.use:
+    default: op
+  sk.pc:
+    default: op
+  sk.ps:
+    default: op
+  sk.pl:
+    default: op
