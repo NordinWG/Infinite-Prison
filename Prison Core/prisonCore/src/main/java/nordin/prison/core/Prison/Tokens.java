@@ -9,5 +9,5 @@ package nordin.prison.core.Prison;
  * @author NordinWG
  */
 public class Tokens {
-    
+    // token system, currency for upgrading/enchanting pickaxe
 }
