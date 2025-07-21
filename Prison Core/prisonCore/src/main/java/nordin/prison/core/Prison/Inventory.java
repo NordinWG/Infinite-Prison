@@ -9,5 +9,5 @@ package nordin.prison.core.Prison;
  * @author NordinWG
  */
 public class Inventory {
-    
+    //all items get put into a vault the size of an inventory
 }

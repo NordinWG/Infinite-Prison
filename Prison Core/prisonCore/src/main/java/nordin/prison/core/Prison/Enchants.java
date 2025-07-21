@@ -9,5 +9,5 @@ package nordin.prison.core.Prison;
  * @author NordinWG
  */
 public class Enchants {
-    
+    //many custom enchants
 }
