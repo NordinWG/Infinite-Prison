@@ -14,16 +14,16 @@ import org.bukkit.event.player.PlayerQuitEvent;
 import net.luckperms.api.LuckPerms;
 import net.luckperms.api.LuckPermsProvider;
 import net.luckperms.api.model.user.User;
-import nordin.prison.core.MobEconomyPlugin;
+import nordin.prison.core.core;
 
 public class JoinLeaveMessage implements Listener {
-    private final MobEconomyPlugin plugin;
+    private final core plugin;
     private String joinMessage;
     private String leaveMessage;
     private boolean enableBroadcast;
     private LuckPerms luckPerms;
 
-    public JoinLeaveMessage(MobEconomyPlugin plugin) {
+    public JoinLeaveMessage(core plugin) {
         this.plugin = plugin;
         loadMessages();
         this.luckPerms = LuckPermsProvider.get();

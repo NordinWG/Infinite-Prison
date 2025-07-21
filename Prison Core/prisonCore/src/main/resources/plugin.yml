@@ -1,6 +1,6 @@
 name: PrisonCore
 version: 1
-main: nordin.prison.core.MobEconomyPlugin
+main: nordin.prison.core.Core
 api-version: 1.21
 authors: [NordinWG]
 depend: [PlaceholderAPI, LuckPerms, WorldGuard]

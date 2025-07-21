@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.text.NumberFormat;
 import java.util.*;
 
-public class MobEconomyPlugin extends JavaPlugin implements Listener, CommandExecutor {
+public class core extends JavaPlugin implements Listener, CommandExecutor {
     private FileConfiguration config;
     private FileConfiguration dataConfig;
     private JoinLeaveMessage customMessages;
