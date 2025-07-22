@@ -9,5 +9,5 @@ package nordin.prison.core.Prison;
  * @author NordinWG
  */
 public class Sell {
-    //ablitity to sell all items mine items, sellall, autosell sellhand, sell hotbar, sell inventory, sell backbacks
+    //ablitity to sell all mineables, sellall, autosell
 }
