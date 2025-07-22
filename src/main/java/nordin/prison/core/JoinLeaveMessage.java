@@ -1,8 +1,5 @@
 package nordin.prison.core;
 
-import java.io.File;
-import java.io.IOException;
-
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
@@ -16,13 +13,13 @@ import net.luckperms.api.LuckPermsProvider;
 import net.luckperms.api.model.user.User;
 
 public class JoinLeaveMessage implements Listener {
-    private final core plugin;
+    private final Core plugin;
     private String joinMessage;
     private String leaveMessage;
     private boolean enableBroadcast;
     private LuckPerms luckPerms;
 
-    public JoinLeaveMessage(core plugin) {
+    public JoinLeaveMessage(Core plugin) {
         this.plugin = plugin;
         loadMessages();
         this.luckPerms = LuckPermsProvider.get();

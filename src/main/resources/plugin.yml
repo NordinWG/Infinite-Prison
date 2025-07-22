@@ -2,7 +2,7 @@ name: PrisonCore
 version: 1
 main: nordin.prison.core.Core
 api-version: 1.21
-authors: [NordinWG]
+authors: [nyphrux]
 depend: [PlaceholderAPI, LuckPerms, WorldGuard]
 commands:
   helpme:

@@ -1,6 +1,4 @@
-# The official config file for finites Network Core
-#                               | A library plugin for finites Anarchy
-#                               \ Still work in progress
+# The official config file for Prison Core
 
 #all ingame chat formatting and all plugin messages
 messages:

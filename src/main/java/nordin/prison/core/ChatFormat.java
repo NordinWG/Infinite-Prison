@@ -17,11 +17,11 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 public class ChatFormat implements Listener {
-    private final core plugin;
+    private final Core plugin;
     private final LuckPerms luckPerms;
     private String chatFormat;
 
-    public ChatFormat(core plugin) {
+    public ChatFormat(Core plugin) {
         this.plugin = plugin;
         this.luckPerms = LuckPermsProvider.get();
         reloadFormat();
