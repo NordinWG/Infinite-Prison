@@ -17,7 +17,7 @@ public class JoinLeaveMessage implements Listener {
     private String joinMessage;
     private String leaveMessage;
     private boolean enableBroadcast;
-    private LuckPerms luckPerms;
+    private final LuckPerms luckPerms;
 
     public JoinLeaveMessage(Core plugin) {
         this.plugin = plugin;

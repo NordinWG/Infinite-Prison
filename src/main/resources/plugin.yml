@@ -22,6 +22,8 @@ commands:
     usage: /<command>
   cleardroppd:
     usage: /<command>
+  backpack:
+    description: Opens your backpack
 permissions:
   sk.cleardroppd:
     default: op
